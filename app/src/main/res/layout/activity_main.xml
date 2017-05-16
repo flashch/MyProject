@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chinamobile.onenet.mymvp.mvp.ui.activity.MainActivity">
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></com.zhy.autolayout.AutoFrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#34707070" />
+
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/ctl_bottom_title"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffffff"
+        fancy:tl_iconHeight="23dp"
+        fancy:tl_iconWidth="23dp"
+        fancy:tl_indicator_color="#2C97DE"
+        fancy:tl_indicator_height="0dp"
+        fancy:tl_textSelectColor="#2C97DE"
+        fancy:tl_textUnselectColor="#66000000"
+        fancy:tl_textsize="12sp"
+        fancy:tl_underline_color="#DDDDDD"
+        fancy:tl_underline_height="1dp" />
+</LinearLayout>
