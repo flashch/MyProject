@@ -31,6 +31,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".mvp.ui.activity.UserActivity" />
+        <activity android:name=".mvp.ui.activity.RegisterActivity"></activity>
 
         <!--
      autolayout meta
@@ -52,7 +53,8 @@
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="sjY5mTOsCiKRkYcTTveWbMTGcWsbN0wf" />
 
-        <activity android:name=".mvp.ui.activity.LoginActivity"></activity>
+        <activity android:name=".mvp.ui.activity.LoginActivity" />
+        <activity android:name=".mvp.ui.activity.RegisterActivity"></activity>
     </application>
 
 </manifest>
